@@ -3,6 +3,9 @@ export default {
   collectCoverage: true,
   coverageDirectory: "coverage",
   coverageProvider: "v8",
+  collectCoverageFrom: [
+    'src/*.ts',
+  ],
   preset: "ts-jest",
     testEnvironment: "node",
     transform: {

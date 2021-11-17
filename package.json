@@ -7,8 +7,9 @@
   "scripts": {
     "start": "ts-node index.ts",
     "build": "tsc",
-    "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test": "jest --verbose",
+    "test:watch": "jest --watchAll --verbose",
+    "test:coverage": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
